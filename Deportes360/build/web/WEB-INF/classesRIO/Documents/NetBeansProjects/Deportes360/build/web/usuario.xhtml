@@ -12,8 +12,6 @@
 </h:head>
 
 <h:body>
-
-    <!-- HEADER -->
     <header class="header">
         <div class="container">
             <div class="menu">
@@ -32,9 +30,9 @@
                 <nav class="navbar">
                     <ul>
                         <li><h:link outcome="index" value="Inicio" /></li>
-                        <li><h:link outcome="menu" value="Catálogo" /></li>
+                        <li><h:link outcome="catalogo" value="Catálogo" /></li>
                         <li><h:link outcome="quienes" value="Quiénes somos" /></li>
-                        <li><h:link outcome="pedidos" value="Mis Pedidos" /></li>
+                        <li><h:link outcome="catalogo" value="catalogo" /></li>
                         <li><h:link outcome="login" value="Cerrar Sesión" /></li>
                     </ul>
                 </nav>
@@ -43,14 +41,13 @@
         </div>
     </header>
 
-    <!-- HERO -->
     <div class="hero-section">
         <div class="container hero-content">
 
             <div class="hero-text">
                 <h1>CELEBRA CADA MOVIMIENTO</h1>
                 <p>TECNOLOGÍA, COMODIDAD Y ESTILO PARA CADA DÍA.</p>
-                <h:link outcome="login" value="Compra Ya" styleClass="btn-2" />
+                <h:link outcome="catalogo" value="Compra Ya" styleClass="btn-2" />
             </div>
 
             <div class="hero-image">
@@ -60,7 +57,6 @@
         </div>
     </div>
 
-    <!-- SERVICIOS -->
     <section class="services">
         <div class="container">
             <h2>Nuestros Servicios</h2>
@@ -86,7 +82,6 @@
         </div>
     </section>
 
-    <!-- PRODUCTOS -->
     <main class="Prodcts container">
         <h2>Prendas Destacadas</h2>
 
@@ -151,7 +146,6 @@
         </div>
     </main>
 
-    <!-- FOOTER -->
     <footer class="footer container">
         <div class="footer-content">
             <h:link outcome="index" value="Deportes 360" styleClass="logo" />
